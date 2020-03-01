@@ -17,6 +17,7 @@ import { useInjectReducer } from 'utils/injectReducer';
 import Header from 'components/Header';
 import FactsActions from 'components/FactsActions';
 import ToursIndex from 'components/ToursIndex';
+import Navigation from 'components/Navigation';
 
 import makeSelectToursScroller from './selectors';
 import reducer from './reducer';
@@ -229,6 +230,7 @@ export function ToursScroller() {
       <Header />
       <FactsActions />
       <ToursIndex />
+      <Navigation />
     </ToursScrollerWrapper>
   );
 }
