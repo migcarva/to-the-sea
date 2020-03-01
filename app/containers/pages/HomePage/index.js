@@ -7,7 +7,7 @@
 import React, { useEffect, memo } from 'react';
 import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
-import { FormattedMessage } from 'react-intl';
+// import { FormattedMessage } from 'react-intl';
 import { connect } from 'react-redux';
 import { compose } from 'redux';
 import { createStructuredSelector } from 'reselect';
@@ -28,7 +28,7 @@ import Form from './Form';
 import Input from './Input';
 import Section from './Section';
 import messages from './messages';
-import { loadRepos } from '../App/actions';
+import { loadRepos } from '../../App/actions';
 import { changeUsername } from './actions';
 import { makeSelectUsername } from './selectors';
 import reducer from './reducer';
