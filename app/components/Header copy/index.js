@@ -2,7 +2,7 @@ import React from 'react';
 import { FormattedMessage } from 'react-intl';
 import { Link } from 'react-router-dom';
 
-import Icon from 'components/Icon';
+import Icon from './node_modules/components/Icon';
 
 import HeaderWrapper from './HeaderWrapper';
 import messages from './messages';

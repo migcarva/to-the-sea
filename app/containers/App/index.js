@@ -26,12 +26,12 @@ export default function App() {
       <Helmet titleTemplate="to the sea" defaultTitle="to the sea tours">
         <meta name="description" content="to the sea tours" />
       </Helmet>
-      <Icons />
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route path="/features" component={FeaturePage} />
         <Route path="" component={NotFoundPage} />
       </Switch>
+      <Icons />
       <GlobalStyle />
     </AppWrapper>
   );

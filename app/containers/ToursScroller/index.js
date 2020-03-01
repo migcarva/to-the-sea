@@ -15,6 +15,7 @@ import { useInjectSaga } from 'utils/injectSaga';
 import { useInjectReducer } from 'utils/injectReducer';
 
 import Header from 'components/Header';
+import FactsActions from 'components/FactsActions';
 
 import makeSelectToursScroller from './selectors';
 import reducer from './reducer';
@@ -225,6 +226,7 @@ export function ToursScroller() {
   return (
     <ToursScrollerWrapper>
       <Header />
+      <FactsActions />
     </ToursScrollerWrapper>
   );
 }
