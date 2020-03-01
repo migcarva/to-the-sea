@@ -18,6 +18,7 @@ import Header from 'components/Header';
 import FactsActions from 'components/FactsActions';
 import ToursIndex from 'components/ToursIndex';
 import Navigation from 'components/Navigation';
+import Tour from 'components/Tour';
 
 import makeSelectToursScroller from './selectors';
 import reducer from './reducer';
@@ -44,7 +45,7 @@ export function ToursScroller() {
         { title: 'Biggest lake', detail: 'Caspian sea in Kazakhstan' },
         { title: 'Coolest activity', detail: 'Kayaking the whole lake' },
         { title: 'Lake depth', detail: "With 55m it's the deepest" },
-        { title: 'Biggest lake', detail: 'Caspian sea in Kazakhstan' },
+        { title: 'Biggest wake', detail: 'Caspian sea in Kazakhstan' },
       ],
       galery: [
         {
@@ -231,6 +232,10 @@ export function ToursScroller() {
       <FactsActions />
       <ToursIndex />
       <Navigation />
+
+      {tours.map(tour => (
+        <Tour {...tour} key={tour.title} />
+      ))}
     </ToursScrollerWrapper>
   );
 }

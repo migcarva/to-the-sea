@@ -10,9 +10,9 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import { Switch, Route } from 'react-router-dom';
 
-import HomePage from 'containers/HomePage/Loadable';
-import FeaturePage from 'containers/FeaturePage/Loadable';
-import NotFoundPage from 'containers/NotFoundPage/Loadable';
+import HomePage from 'containers/pages/HomePage/Loadable';
+import FeaturePage from 'containers/pages/FeaturePage/Loadable';
+import NotFoundPage from 'containers/pages/NotFoundPage/Loadable';
 
 import Icons from 'components/Icons';
 
