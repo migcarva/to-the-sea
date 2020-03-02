@@ -362,7 +362,7 @@ button:focus {
 	max-height: 100%;
 	margin: auto 0;
 	display: block;
-} 
+}
 
 .section__more {
 	display: flex;
@@ -418,7 +418,7 @@ button:focus {
 }
 
 @media screen and (min-width: 55em) and (min-height: 40em) {
-	.sections {
+	/* .sections {
 		height: 100vh;
 		overflow: hidden;
 		display: grid;
@@ -428,7 +428,7 @@ button:focus {
 								"sections-index expander"
 								"... expander"
 								"sections-nav expander";
-	}
+	} */
 	.codrops-links {
 		position: absolute;
 		top: 0;
